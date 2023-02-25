@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* heder */
+
+.logo{
+    display: flex;
+    flex-grow: 1;
+}
+.logo img{
+    width: 250px;
+    height: 75px;
+    padding-left: 10px;
+}
+.nav1{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+.encab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.encab .nav1 a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: justify;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+}
+.nav1 ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px;
+}
+.nav1 ul li a:hover{
+    background-color: rgba(176, 182, 182, 0.805);
+}
+
+
+header{
+    background-color: rgb(228, 232, 232);
+}
+
+/* chekboxes */
+.categorias{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+.categorias ul{
+    display: flex;
+    margin-top: 20px;
+}
+.categorias ul li{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+.categorias li input{
+    padding: 10px;
+}
+.lupa1{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-color: transparent;
+}
+.selecciones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
